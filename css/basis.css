@@ -1,0 +1,289 @@
+/* Shared
+-------------------------------------------------------------------------------- */
+body {
+    font-family: sans-serif;
+    line-height: 1.5;
+    padding-bottom: 48px;
+}
+
+/* Alignment
+-------------------------------------------------------------------------------- */
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.text-left {
+    text-align: left;
+}
+.text-right {
+    text-align: right;
+}
+.text-center {
+    text-align: center;
+}
+
+/* Media
+-------------------------------------------------------------------------------- */
+img {
+    max-width: 100%;
+    vertical-align: middle;
+    -ms-interpolation-mode: bicubic;
+}
+
+figure {
+    margin: 0 0 21px;
+}
+
+/* Misc
+-------------------------------------------------------------------------------- */
+
+.highlight {
+    background: #ffff99;
+}
+
+/* Typography
+-------------------------------------------------------------------------------- */
+h1,h2,h3,h4,h5,h6 {
+    line-height: 1;
+    margin: 0 0 14px
+}
+h1 {
+    font-size: 48px;
+    margin: 18px 0;
+}
+h2 {
+    font-size: 30px;
+}
+h3 {
+    font-size: 24px;
+}
+h4 {
+    font-size: 18px;
+    margin: 0 0 12px;
+}
+h5 {
+    font-size: 16px;
+    margin: 0 0 6px;
+}
+h6 {
+    font-size: 14px;
+    margin: 0 0 3px;
+}
+h1 ~ p {
+    font-size: 18px;
+}
+h5 ~ * {
+    font-size: 14px;
+}
+h6 ~ * {
+    font-size: 13px;
+}
+p,
+pre {
+    margin: 0 0 21px;
+}
+hr {
+    border: solid #000;
+    border-width: 1px 0 0;
+    clear: both;
+    margin: 0 0 24px;
+    height: 0;
+}
+em, i {
+    font-style: italic;
+    line-height: inherit;
+}
+strong, b {
+    font-weight: bold;
+    line-height: inherit;
+}
+small {
+    font-size: 60%;
+    line-height: inherit;
+}
+code {
+    font-weight: bold;
+    background: #ffff99;
+}
+
+/* Blockquotes
+-------------------------------------------------------------------------------- */
+blockquote {
+    margin: 0 21px 21px;
+}
+blockquote cite {
+    display: block;
+    font-size: 14px;
+    font-style: normal;
+}
+
+/* Lists
+-------------------------------------------------------------------------------- */
+ul, ol {
+    padding: 0;
+    margin: 0 0 21px 16px;
+}
+ul {
+    list-style: disc;
+}
+ol {
+    list-style: decimal;
+}
+ol.lower-roman {
+    list-style: lower-roman;
+}
+ol.upper-roman {
+    list-style: upper-roman;
+}
+ol.lower-latin {
+    list-style: lower-latin;
+}
+ul, ol, ul.square, ul.circle, ul.disc {
+    margin-left: 16px;
+}
+ul.square {
+    list-style-type: square;
+}
+ul.square li ul {
+    list-style: inherit;
+}
+ul.circle {
+    list-style-type: circle;
+}
+ul.circle li ul {
+    list-style: inherit;
+}
+ul.disc {
+    list-style-type: disc;
+}
+ul.disc li ul {
+    list-style: inherit;
+}
+ul.no-bullet {
+    list-style: none;
+    margin-left: 0;
+}
+ol li ul, ol li ol {
+    margin-left: 16px;
+    margin-bottom: 0;
+}
+
+/* Link list
+-------------------------------------------------------------------------------- */
+ul.link-list {
+    margin: 0 0 24px -22px;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+}
+ul.link-list li {
+    list-style: none;
+    float: left;
+    margin-left: 22px;
+    display: block;
+}
+ul.link-list li a {
+    display: block;
+}
+
+/* Form
+-------------------------------------------------------------------------------- */
+form {
+    margin: 0 0 21px;
+}
+fieldset {
+    border: solid 1px #ddd;
+    border-radius: 8px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    padding: 12px 12px 0;
+    margin: 21px 0;
+}
+fieldset legend {
+    font-weight: bold;
+    background: white;
+    padding: 0 3px;
+    margin: 0 0 0 -3px;
+}
+label {
+    font-size: 14px;
+    color: #4d4d4d;
+    display: block;
+    font-weight: 500;
+    margin-bottom: 3px;
+}
+input,
+textarea {
+    display: block;
+    width: 100%;
+    height: 32px;
+    padding: 6px;
+    padding: 7px 6px 6px\9; /* 1px more padding on top for IE to vertically align text */
+    border: 1px solid #cccccc;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+    margin: 0 0 16px 0;
+    font-size: 14px;
+    color: inherit;
+}
+input[type="submit"] {
+    width: auto;
+    padding-left: 24px;
+    padding-right: 24px;
+    margin: 0;
+    background-color: #fff;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    cursor: pointer;
+}
+input:focus,
+textarea:focus {
+    background: #fafafa;
+    outline: none !important;
+    border-color: #b3b3b3;
+}
+input[disabled],
+textarea[disabled] {
+    background-color: #ddd;
+}
+textarea{
+    height: auto;
+    resize: vertical;
+}
+select{
+    width: 100%;
+    margin: 0 0 12px;
+}
+
+/* Table
+-------------------------------------------------------------------------------- */
+table {
+    width: 100%;
+    table-layout: fixed;
+}
+
+td {
+    padding: 6px;
+    border: 1px solid #ccc
+}
+
+/* Small screen overides
+-------------------------------------------------------------------------------- */
+@media only screen and (max-width: 767px) {
+    h1 {
+        font-size: 36px;
+    }
+}
+
+
+
+

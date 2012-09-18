@@ -1,0 +1,129 @@
+/* Grid
+-------------------------------------------------------------------------------- */
+.container {
+    padding: 0px 20px;
+}
+.row {
+    width: 100%;
+    max-width: 940px; /* Set max-width to your desired width */
+    min-width: 720px;
+    margin: 0 auto;
+}
+.row .row { /* row your boat */
+    width: auto;
+    max-width: none;
+    min-width: 0;
+}
+/* nicolasgallagher.com/micro-clearfix-hack */
+.row:before, .row:after, .clearfix:before, .clearfix:after {
+    content:"";
+    display:table;
+}
+.row:after, .clearfix:after {
+    clear: both;
+}
+.row, .clearfix {
+    zoom: 1;
+}
+.columns {
+    margin-left: 2.127663%;
+    float: left;
+    min-height: 1px;
+    position: relative;
+}
+/* remove first column margin */
+.columns:first-child, .alpha {
+    margin-left: 0px;
+}
+.columns.omega {
+    float: right;
+}
+.row .one {
+    width: 6.382989%;
+}
+.row .two {
+    width: 14.893641%;
+}
+.row .three {
+    width: 23.404293%;
+}
+.row .four {
+    width: 31.914945%;
+}
+.row .five {
+    width: 40.425597%;
+}
+.row .six {
+    width: 48.936249%;
+}
+.row .seven {
+    width: 57.446901%;
+}
+.row .eight {
+    width: 65.957553%;
+}
+.row .nine {
+    width: 74.468205%;
+}
+.row .ten {
+    width: 82.978857%;
+}
+.row .eleven {
+    width: 91.489509%;
+}
+.row .twelve {
+    width: 100%;
+}
+
+/* Classes to offset columns */
+
+.row .push-one {
+    margin-left: 8.510652%;
+}
+.row .push-two {
+    margin-left: 17.021304%;
+}
+.row .push-three {
+    margin-left: 25.531956%;
+}
+.row .push-four {
+    margin-left: 34.042608%;
+}
+.row .push-five {
+    margin-left: 42.55326%;
+}
+.row .push-six {
+    margin-left: 51.063912%;
+}
+.row .push-seven {
+    margin-left: 59.574564%;
+}
+.row .push-eight {
+    margin-left: 68.085216%;
+}
+.row .push-nine {
+    margin-left: 76.596868%;
+}
+.row .push-ten {
+    margin-left: 85.10652%;
+}
+.row .push-eleven {
+    margin-left: 93.617172%;
+}
+
+@media only screen and (max-width: 767px){
+    body {
+        -webkit-text-size-adjust: none;
+        -ms-text-size-adjust: none;
+        width: 100%;
+    }
+    .row {
+        width: 100%;
+        min-width: 0;
+    }
+    .row .columns {
+        width: auto !important;
+        float: none;
+        margin: 0;
+    }
+}

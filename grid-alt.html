@@ -1,0 +1,280 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Grid</title>
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/grid-alt.css">
+		<style type="text/css">
+			/* These styles only for grid demo */
+			body {
+				font-family: sans-serif;
+				text-align: center;
+			}
+			.row {
+				margin-bottom: 18px;
+			}
+			.columns {
+				background-color: #85bbfc; 
+			}
+			.row .row {
+				margin-bottom: 0;
+			}
+			.row .row .columns {
+				background-color: #b3d4fd;
+			}
+			p {
+				margin: 0;
+				line-height: 3;
+				text-transform: lowercase;
+				color: #fff;
+			}
+			@media only screen and (max-width: 767px){
+				.row {
+					margin-bottom: 0;
+				}
+				.row .columns {
+					margin-bottom: 18px;
+				}
+				.row .row .columns {
+					margin-bottom: 18px;
+					border-bottom: 1px solid #fff;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<div class="row">
+				<div class="twelve columns">
+					<p>Twelve</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="six columns">
+					<p>Six</p>
+				</div>
+				<div class="six columns">
+					<p>Six</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="four columns">
+					<p>Three</p>
+				</div>
+				<div class="four columns">
+					<p>Three</p>
+				</div>
+				<div class="four columns">
+					<p>Three</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="three columns">
+					<p>Four</p>
+				</div>
+				<div class="three columns">
+					<p>Four</p>
+				</div>
+				<div class="three columns">
+					<p>Four</p>
+				</div>
+				<div class="three columns">
+					<p>Four</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="two columns">
+					<p>Two</p>
+				</div>
+				<div class="two columns">
+					<p>Two</p>
+				</div>
+				<div class="two columns">
+					<p>Two</p>
+				</div>
+				<div class="two columns">
+					<p>Two</p>
+				</div>
+				<div class="two columns">
+					<p>Two</p>
+				</div>
+				<div class="two columns">
+					<p>Two</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="one columns">
+					<p>One</p>
+				</div>
+				<div class="one columns">
+					<p>One</p>
+				</div>
+				<div class="one columns">
+					<p>One</p>
+				</div>
+				<div class="one columns">
+					<p>One</p>
+				</div>
+				<div class="one columns">
+					<p>One</p>
+				</div>
+				<div class="one columns">
+					<p>One</p>
+				</div>
+				<div class="one columns">
+					<p>One</p>
+				</div>
+				<div class="one columns">
+					<p>One</p>
+				</div>
+				<div class="one columns">
+					<p>One</p>
+				</div>
+				<div class="one columns">
+					<p>One</p>
+				</div>
+				<div class="one columns">
+					<p>One</p>
+				</div>
+				<div class="one columns">
+					<p>One</p>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="two columns push-one">
+					<p>Two, push one</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="two columns push-two">
+					<p>Two, push two</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="two columns push-three">
+					<p>Two, push three</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="two columns push-four">
+					<p>Two, push four</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="two columns push-five">
+					<p>Two, push five</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="two columns push-six">
+					<p>Two, push six</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="two columns push-seven">
+					<p>Two, push seven</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="two columns push-eight">
+					<p>Two, push eight</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="two columns push-nine">
+					<p>Two, push nine</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="two columns push-ten">
+					<p>Two, push ten</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="one columns">
+					<p>One</p>
+				</div>
+				<div class="eleven columns">
+					<p>Eleven</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="two columns">
+					<p>Two</p>
+				</div>
+				<div class="ten columns">
+					<p>Ten</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="three columns">
+					<p>Three</p>
+				</div>
+				<div class="nine columns">
+					<p>Nine</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="four columns">
+					<p>Four</p>
+				</div>
+				<div class="eight columns">
+					<p>Eight</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="five columns">
+					<p>Five</p>
+				</div>
+				<div class="seven columns">
+					<p>Seven</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="six columns">
+					<div class="row">
+						<div class="six columns">
+							<p>Six</p>
+						</div>
+						<div class="six columns">
+							<p>Six</p>
+						</div>
+					</div>
+				</div>
+				<div class="six columns">
+					<div class="row">
+						<div class="four columns">
+							<p>Three</p>
+						</div>
+						<div class="four columns">
+							<p>Three</p>
+						</div>
+						<div class="four columns">
+							<p>Three</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>		
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
