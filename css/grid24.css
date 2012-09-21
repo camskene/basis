@@ -192,10 +192,15 @@
         min-width: 0;
     }
     .row .columns {
-        width: auto !important;
+        width: auto;
         float: none;
+    }
+    .row .twelve.columns.set {
+        float: left;
+        width: 50%;
     }
     .push-one, .push-two, .push-three, .push-four, .push-five, .push-six, .push-seven, .push-eight, .push-nine, .push-ten, .push-eleven, .push-twelve, .push-thirteen, .push-fourteen, .push-fifteen, .push-sixteen, .push-seventeen, .push-eighteen, .push-nineteen, .push-twenty, .push-twenty-one, .push-twenty-two, .push-twenty-three {
         margin-left: 0 !important;
     }
+
 }
