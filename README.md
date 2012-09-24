@@ -12,9 +12,9 @@ What does it do?
 
 How to use it
 -----------
-Link to grid24.css file by itself if you just want a responsive grid or link to grid24.css, [normalize.css](https://github.com/necolas/normalize.css) and basis.css for the grid and consistent browser defaults on a range of elements.
+Link to grid24.css if you just want a responsive grid or link to grid24.css, [normalize.css](https://github.com/necolas/normalize.css) and basis.css for type styles and responsive images.
 
-The columns are set in percentages and the outer most div with a class of .row has been given a max-width of 1200px - 1200/24 = 50.
+The columns are set in percentages and the outer most div with a class of .row has been given a max-width of 1200px: 1200/24 = 50.
 You can specify any max-width you want on the outer most row, I just used 1200 as it gave me a nice round number of 50.
 
 Columns have 10px padding on the left and the right giving you 20px gutters.
