@@ -1,14 +1,14 @@
 BasisCSS
 =============
 
-A responsive 24 column grid with some nice typography defaults.
+A responsive 24 column grid with some type styles.
 
 What does it do?
 -----------
 
 * Divides your page into 24 columns with 20px gutters
-* Provides a PSD template to work from
-* Sets type to some usable defaults
+* Builds on top of [normalize.css](https://github.com/necolas/normalize.css) to provide some type styles.
+* Includes a PSD template to work from
 
 How to use it
 -----------
